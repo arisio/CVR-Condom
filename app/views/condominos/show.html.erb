@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Unidade:</b>
+  <%= @condomino.unidade %>
+</p>
+
+<p>
+  <b>Nome:</b>
+  <%= @condomino.nome %>
+</p>
+
+
+<%= link_to 'Edit', edit_condomino_path(@condomino) %> |
+<%= link_to 'Back', condominos_path %>
